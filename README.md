@@ -85,9 +85,11 @@ The counts grow quickly: each is roughly four times the one before at the right-
 hand end of the table. That is slower than the polyplet totals themselves, which
 grow by a factor approaching six and a half, so the qualifying shapes thin out. The
 fraction `a(n)` of all polyplets falls steadily -- about 0.27 at `n = 4`, about
-0.03 at `n = 10` -- and we expect it to tend to zero, because a large polyplet
-typically admits several independent corner-only contacts rather than exactly one
-(UNVERIFIED).
+0.03 at `n = 10` -- and tends to zero. By Madras's pattern theorem for lattice
+clusters (1999), a corner-pinch contact is a local pattern that occurs in the
+interior of large polyplets, so all but an exponentially small fraction of n-cell
+polyplets contain many of them; the shapes with exactly one are therefore a
+vanishing minority.
 
 We found no closed form, polynomial, or finite linear recurrence for `a(n)`, and
 expect none: the polyplet count itself has no closed form, its growth being
@@ -106,6 +108,8 @@ This work was inspired by the OEIS and the community of contributors who maintai
 - Sloane, N. J. A., editor. "A030222: Number of n-polyplets (polyominoes connected
   at edges or corners); may contain holes." The On-Line Encyclopedia of Integer
   Sequences. https://oeis.org/A030222
+- Madras, N. (1999). "A pattern theorem for lattice clusters." Annals of
+  Combinatorics, 3, 357-384. (arXiv:math/9902161)
 - Redelmeier, D. H. (1981). "Counting polyominoes: yet another attack." Discrete
   Mathematics 36(2), 191-203.
 
